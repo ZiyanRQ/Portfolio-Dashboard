@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Trust Portfolio Analytics",
-  description: "Generic portfolio analytics and reporting dashboard",
+  description: "Trustee decision-support dashboard for a charitable trust's portfolio restructuring proposal",
 };
 
 export default function RootLayout({

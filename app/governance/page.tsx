@@ -1,10 +1,5 @@
-export default function GovernancePage() {
-  return (
-    <div className="space-y-2">
-      <h1 className="text-2xl font-semibold tracking-tight text-slate-900">
-        Governance
-      </h1>
-      <p className="text-slate-600">Placeholder content</p>
-    </div>
-  );
+import { redirect } from "next/navigation"
+
+export default function GovernanceIndex() {
+  redirect("/governance/calendar")
 }

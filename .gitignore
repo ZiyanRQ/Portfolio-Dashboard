@@ -33,6 +33,9 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# shared dashboard records and audit log (server data, not source)
+/data
+
 # vercel
 .vercel
 
